@@ -20,6 +20,8 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 header h1 {
@@ -30,22 +32,23 @@ header h1 {
 header nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #hero {
     background: #1e90ff;
     color: #fff;
-    padding: 100px 20px 50px;
+    padding: 100px 20px;
     text-align: center;
     margin-top: 60px;
 }
@@ -73,7 +76,7 @@ header nav ul li a {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
@@ -83,10 +86,20 @@ header nav ul li a {
 h2 {
     color: #333;
     text-align: center;
+    margin-top: 0;
 }
 
 section {
     padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
 }
 
 footer {
